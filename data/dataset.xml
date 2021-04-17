@@ -1,0 +1,970 @@
+<cases>
+        <case>
+                <year>1933</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Light My Life With Love</songtitle>
+                <datatype>MXL</datatype>
+                <filename>light_myLife</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Nathaniel Shilkret</artist>
+                <songtitle>Lady Divine</songtitle>
+                <datatype>MXL</datatype>
+                <filename>lady_divine_pt1</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1933</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Light My Life With Love</songtitle>
+                <datatype>MXL</datatype>
+                <filename>light_myLife</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Nathaniel Shilkret</artist>
+                <songtitle>Lady Divine</songtitle>
+                <datatype>MXL</datatype>
+                <filename>lady_divine_pt2</filename>
+                </dwork>               
+        </case>
+
+
+        <case>
+                <year>1933</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Light My Life With Love</songtitle>
+                <datatype>MXL</datatype>
+                <filename>light_myLife</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Nathaniel Shilkret</artist>
+                <songtitle>Lady Divine</songtitle>
+                <datatype>MXL</datatype>
+                <filename>lady_divine_pt3</filename>
+                </dwork>               
+        </case>
+       
+        <case>
+                <year>1935</year>
+                <cwork>
+                <artist>W.A. (Bud) Wilkie</artist>
+                <songtitle>Confessing</songtitle>
+                <datatype>MXL</datatype>
+                <filename>confessing</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Bernice Petkere</artist>
+                <songtitle>Starlight</songtitle>
+                <datatype>MXL</datatype>
+                <filename>starlight</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1936</year>
+                <cwork>
+                <artist>Norden</artist>
+                <songtitle>O Gladsome Light</songtitle>
+                <datatype>MXL</datatype>
+                <filename>o_gladsome</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Oliver Ditson</artist>
+                <songtitle>O Light Divine</songtitle>
+                <datatype>MXL</datatype>
+                <filename>o_light</filename>
+                </dwork>               
+        </case>
+
+                <case>
+                <year>1937</year>
+                <cwork>
+                <artist>Hortense Hirsch</artist>
+                <songtitle>Lady of Love</songtitle>
+                <datatype>MXL</datatype>
+                <filename>lady_love</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Harry Revel</artist>
+                <songtitle>Without a Word of Warning</songtitle>
+                <datatype>MXL</datatype>
+                <filename>word_warning</filename>
+                </dwork>               
+        </case>
+
+     
+
+                <case>
+                <year>1939</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Whisper to Me</songtitle>
+                <datatype>MXL</datatype>
+                <filename>whisper</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Joe Burke</artist>
+                <songtitle>My Wishing Song</songtitle>
+                <datatype>MXL</datatype>
+                <filename>wishing_song</filename>
+                </dwork>               
+        </case>
+
+
+
+                <case>
+                <year>1940</year>
+                <cwork>
+                <artist>Jack Darrell</artist>
+                <songtitle>Does Anybody Want a Little Kewpie</songtitle>
+                <datatype>MXL</datatype>
+                <filename>does_anybody</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Joe Morris Music</artist>
+                <songtitle>On the Beach at Bali-Bali</songtitle>
+                <datatype>MXL</datatype>
+                <filename>bali</filename>
+                </dwork>               
+        </case>
+
+    
+
+        <case>
+                <year>1940</year>
+                <cwork>
+                <artist>Joseph Davila</artist>
+                <songtitle>If I were a Spider</songtitle>
+                <datatype>MXL</datatype>
+                <filename>spider</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Sigmund Romberg</artist>
+                <songtitle>Desert Song</songtitle>
+                <datatype>MXL</datatype>
+                <filename>desert_song</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1941</year>
+                <cwork>
+                <artist>Wadsworth Doster</artist>
+                <songtitle>Old Eli</songtitle>
+                <datatype>MXL</datatype>
+                <filename>old_eli</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Walt Disney</artist>
+                <songtitle>Someday My Prince Will Come</songtitle>
+                <datatype>MXL</datatype>
+                <filename>someday_prince</filename>
+                </dwork>               
+        </case>
+
+
+        <case>
+                <year>1941</year>
+                <cwork>
+                <artist>Silvano D. Ramos</artist>
+                <songtitle>Allà en el Rancho Grande</songtitle>
+                <datatype>MXL</datatype>
+                <filename>alla_rancho</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Anonymous</artist>
+                <songtitle>Allà en el Rancho Grande</songtitle>
+                <datatype>MXL</datatype>
+                <filename>el_rancho_anonymous</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1942</year>
+                <cwork>
+                <artist>Evelyn Carew</artist>
+                <songtitle>Chatterbox</songtitle>
+                <datatype>MXL</datatype>
+                <filename>chatterbox_carew</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Jerome Brainan</artist>
+                <songtitle>Chatterbox</songtitle>
+                <datatype>MXL</datatype>
+                <filename>chatterbox_jerome</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1942</year>
+                <cwork>
+                <artist>Joseph McMahon</artist>
+                <songtitle>In Sunny Kansas</songtitle>
+                <datatype>MXL</datatype>
+                <filename>kansas</filename>
+                </cwork>
+
+                <dwork>
+                <artist>John Openshaw</artist>
+                <songtitle>Love Sends A Little Gift of Roses</songtitle>
+                <datatype>MXL</datatype>
+                <filename>roses</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1943</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Whisper to Me</songtitle>
+                <datatype>MXL</datatype>
+                <filename>whisper_to_me</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Broadcast Music</artist>
+                <songtitle>It All Comes Back to Me Now</songtitle>
+                <datatype>MXL</datatype>
+                <filename>itallcomes</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1943</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Kalamazoo</songtitle>
+                <datatype>MXL</datatype>
+                <filename>kalamazoo_arnstein</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Harry Warren</artist>
+                <songtitle>I’ve Got a Gal in Kalamazoo</songtitle>
+                <datatype>MXL</datatype>
+                <filename>kalamazoo_warren</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1945</year>
+                <cwork>
+                <artist>Samuel Brodsky</artist>
+                <songtitle>Prelude in A Major</songtitle>
+                <datatype>MXL</datatype>
+                <filename>prelude</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Hans Salter</artist>
+                <songtitle>Bad Lands of Dakota</songtitle>
+                <datatype>MXL</datatype>
+                <filename>dakota</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1946</year>
+                <cwork>
+                <artist>Hajdu Imre</artist>
+                <songtitle>Ma Este Meg Boldog Vagyok</songtitle>
+                <datatype>MXL</datatype>
+                <filename>vagyok</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Aldo Franchetti</artist>
+                <songtitle>Perhaps</songtitle>
+                <datatype>MXL</datatype>
+                <filename>perhaps</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1946</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Modern Messiah</songtitle>
+                <datatype>MXL</datatype>
+                <filename>messiah</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Cole Porter</artist>
+                <songtitle>Don’t Fence Me In</songtitle>
+                <datatype>MXL</datatype>
+                <filename>fence</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1946</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>The Lord Is My Shepherd</songtitle>
+                <datatype>MXL</datatype>
+                <filename>shepherd</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Cole Porter</artist>
+                <songtitle>Begin The Beguine</songtitle>
+                <datatype>MXL</datatype>
+                <filename>beginthebeguine</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1946</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>A Mother’s Prayer</songtitle>
+                <datatype>MXL</datatype>
+                <filename>amothersprayer</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Fannie Beane</artist>
+                <songtitle>Coleen Dhas Machree</songtitle>
+                <datatype>MXL</datatype>
+                <filename>myownsweet</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1946</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Sadness O’erwhelms My Soul</songtitle>
+                <datatype>XML</datatype>
+                <filename>sadness</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Cole Porter</artist>
+                <songtitle>You’d Be So Nice To Come Home To</songtitle>
+                <datatype>MXL</datatype>
+                <filename>youdbesonice</filename>
+                </dwork>               
+        </case>
+
+                <case>
+                <year>1946</year>
+                <cwork>
+                <artist>Ira Arnstein</artist>
+                <songtitle>Twilight Waltz</songtitle>
+                <datatype>MXL</datatype>
+                <filename>twilightwaltz</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Cole Porter</artist>
+                <songtitle>What Is This Thing Called Love</songtitle>
+                <datatype>MXL</datatype>
+                <filename>calledlove</filename>
+                </dwork>               
+        </case>
+
+                <case>
+                <year>1951</year>
+                <cwork>
+                <artist>Thelma Jones</artist>
+                <songtitle>Just an Old Fashioned Mother and Dad</songtitle>
+                <datatype>MXL</datatype>
+                <filename>motheranddad</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Francis Craig</artist>
+                <songtitle>Near You</songtitle>
+                <datatype>MXL</datatype>
+                <filename>nearyou</filename>
+                </dwork>               
+        </case>
+
+       <case>
+                <year>1952</year>
+                <cwork>
+                <artist>Guy B. Wood and Sol Marcus</artist>
+                <songtitle>Tonight He Sailed Again</songtitle>
+                <datatype>MXL</datatype>
+                <filename>tonighthesailedagain</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Henry B. Glover</artist>
+                <songtitle>I Love You, Yes I Do</songtitle>
+                <datatype>MXL</datatype>
+                <filename>iloveyouyesido</filename>
+                </dwork>               
+        </case>
+
+  
+
+                <case>
+                <year>1956</year>
+                <cwork>
+                <artist>Donald Irwin Robertson</artist>
+                <songtitle>The Happy Whistler</songtitle>
+                <datatype>MXL</datatype>
+                <filename>thehappywhistler</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Song Ads, Inc.</artist>
+                <songtitle>Ad for San Francisco Brewing Company</songtitle>
+                <datatype>MXL</datatype>
+                <filename>sanfranciscobrewingad</filename>
+                </dwork>               
+        </case>
+
+     
+
+        <case>
+                <year>1956</year>
+                <cwork>
+                <artist>Leonard Smith</artist>
+                <songtitle>Proposed Advertising Jingle for Muehlebach Beer</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>muehlebachbeersmith</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Muehlebach Brewing</artist>
+                <songtitle>Time for Muehlebach</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>timeformuehlebach</filename>
+                </dwork>               
+        </case>
+
+
+     <case>
+                <year>1956</year>
+                <cwork>
+                <artist>Wihtol </artist>
+                <songtitle>My God and I</songtitle>
+                <datatype>MXL</datatype>
+                <filename>mygodandi</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Latvian Folk Tune, arr. Kenneth H. Wells</artist>
+                <songtitle>My God and I</songtitle>
+                <datatype>MXL</datatype>
+                <filename>mygodanditwo</filename>
+                </dwork>               
+        </case>
+
+
+        
+     <case>
+                <year>1958</year>
+                <cwork>
+                <artist>Homer Cholvin and Norman Stade</artist>
+                <songtitle>When the Sun Bids the Sky Goodnight</songtitle>
+                <datatype>MXL</datatype>
+                <filename>goodnight</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Kaczmarek</artist>
+                <songtitle>While We Dream</songtitle>
+                <datatype>MXL</datatype>
+                <filename>whilewedream</filename>
+                </dwork>               
+        </case>
+
+
+
+            <case>
+                <year>1959</year>
+                <cwork>
+                <artist>Fred Spielman</artist>
+                <songtitle>Rendezvous</songtitle>
+                <datatype>MXL</datatype>
+                <filename>rendezvous</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Charles Green</artist>
+                <songtitle>I Dreamed</songtitle>
+                <datatype>MXL</datatype>
+                <filename>idreamed</filename>
+                </dwork>               
+        </case>
+
+
+         <case>
+                <year>1965</year>
+                <cwork>
+                <artist>Frank Nordstrom</artist>
+                <songtitle>“Mizpah” or “Shalom”</songtitle>
+                <datatype>MXL</datatype>
+                <filename>mizpahshalom</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Jerry Herman</artist>
+                <songtitle>Shalom</songtitle>
+                <datatype>MXL</datatype>
+                <filename>shalom</filename>
+                </dwork>               
+        </case>
+        
+        <case>
+                <year>1970</year>
+                <cwork>
+                <artist>Wilhelm Kienzl</artist>
+                <songtitle>Aria O schöne Jugendtage from the opera Der Evangelimann</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>evangelimann</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Gerhard Wendland</artist>
+                <songtitle>Tanze mit mir in den Morgen (Mitternachtstango)</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>mitternachtstango</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1973</year>
+                <cwork>
+                <artist>Ruth Stratchborneo</artist>
+                <songtitle>MOJO Workout</songtitle>
+                <datatype>MXL</datatype>
+                <filename>mojoworkout</filename>
+                </cwork>
+
+                <dwork>
+                <artist>McKinley Morganfield</artist>
+                <songtitle>Got My Mojo Working</songtitle>
+                <datatype>MXL</datatype>
+                <filename>gotmymojoworking</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1976</year>
+                <cwork>
+                <artist>Armando Sciascia</artist>
+                <songtitle>Sogno Nostalgico</songtitle>
+                <datatype>MXL</datatype>
+                <filename>sognonostalgico</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Jack Trombey</artist>
+                <songtitle>Girl in the Dark</songtitle>
+                <datatype>MXL</datatype>
+                <filename>girlinthedark</filename>
+                </dwork>               
+        </case>
+
+
+        <case>
+                <year>1976</year>
+                <cwork>
+                <artist>Ronald Mack</artist>
+                <songtitle>He’s So Fine</songtitle>
+                <datatype>MXL</datatype>
+                <filename>hessofine</filename>
+                </cwork>
+
+                <dwork>
+                <artist>George Harrison</artist>
+                <songtitle>My Sweet Lord</songtitle>
+                <datatype>MXL</datatype>
+                <filename>mysweetlord</filename>
+                </dwork>               
+        </case>
+
+
+        
+        <case>
+                <year>1978</year>
+                <cwork>
+                <artist>Wilma Ferguson</artist>
+                <songtitle>Jeannie Michele</songtitle>
+                <datatype>MXL</datatype>
+                <filename>jeanniemichele</filename>
+                </cwork>
+
+                <dwork>
+                <artist>John Williams</artist>
+                <songtitle>Theme from A Time to Love</songtitle>
+                <datatype>MXL</datatype>
+                <filename>themeatimetolove</filename>
+                </dwork>               
+        </case>
+
+        <case>
+                <year>1978</year>
+                <cwork>
+                <artist>Stephen Schwartz</artist>
+                <songtitle>Day by Day</songtitle>
+                <datatype>MXL</datatype>
+                <filename>daybyday</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Ray Ellis</artist>
+                <songtitle>Theme for N.B.C.s “oday Show</songtitle>
+                <datatype>MXL</datatype>
+                <filename>themetodayshow</filename>
+                </dwork>               
+        </case>
+        
+
+        <case>
+                <year>1980</year>
+                <cwork>
+                <artist>Philip J. Lipari</artist>
+                <songtitle>Kept on Singing</songtitle>
+                <datatype>MXL</datatype>
+                <filename>keeponsinging</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Danny Janssen and Bobby Hart</artist>
+                <songtitle>Keep on Singing</songtitle>
+                <datatype>MXL</datatype>
+                <filename>keeponsingingtwo</filename>
+                </dwork>               
+        </case>
+        
+        
+
+        <case>
+                <year>1980</year>
+                <cwork>
+                <artist>Pantelis Ghinnis</artist>
+                <songtitle>Dirlada</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>dirlada</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Juan Bastos</artist>
+                <songtitle>Loop Di Love</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>loopdilove</filename>
+                </dwork>               
+        </case>
+
+        
+        
+
+        <case>
+                <year>1984</year>
+                <cwork>
+                <artist>Ronald Selle</artist>
+                <songtitle>Let It End</songtitle>
+                <datatype>MXL</datatype>
+                <filename>letitend</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Barry Gibb et al.</artist>
+                <songtitle>How Deep is Your Love</songtitle>
+                <datatype>MXL</datatype>
+                <filename>howdeepisyourlove</filename>
+                </dwork>               
+        </case>
+
+
+        
+        
+
+        <case>
+                <year>1987</year>
+                <cwork>
+                <artist>Louis Gaste</artist>
+                <songtitle>Pour Toi</songtitle>
+                <datatype>MXL</datatype>
+                <filename>pourtoi</filename>
+                </cwork>
+
+                <dwork>
+                <artist>Morris Albert</artist>
+                <songtitle>Feelings</songtitle>
+                <datatype>MXL</datatype>
+                <filename>feelings</filename>
+                </dwork>               
+        </case>
+        
+
+
+        
+        
+
+        <case>
+                <year>1988</year>
+                <cwork>
+                <artist>Julio Iglesias</artist>
+                <songtitle>Un canto a galicia</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>uncantoagalicia</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Nicole</artist>
+                <songtitle>Ein bisschen Frieden</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>bisschenfrieden</filename>
+                </dwork>               
+        </case>
+        
+        
+
+
+        
+        
+
+        <case>
+                <year>1990</year>
+                <cwork>
+                <artist>Paul DiFranco and Norman Dolph</artist>
+                <songtitle>Life is a Rock But the Radio Rolled Me</songtitle>
+                <datatype>MXL</datatype>
+                <filename>lifeisarock</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>McDonald’s</artist>
+                <songtitle>Menu Song</songtitle>
+                <datatype>MXL</datatype>
+                <filename>menusong</filename>
+                </dwork>               
+        </case>
+        
+        
+        <case>
+                <year>1991</year>
+                <cwork>
+                <artist>Enrique Chia</artist>
+                <songtitle>Es</songtitle>
+                <datatype>MXL</datatype>
+                <filename>es</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Mario Balducci, Julio Iglesias</artist>
+                <songtitle>Hey</songtitle>
+                <datatype>MXL</datatype>
+                <filename>hey</filename>
+                </dwork>               
+        </case>
+        
+        
+        
+        <case>
+                <year>1997</year>
+                <cwork>
+                <artist>Ray Repp</artist>
+                <songtitle>Till You</songtitle>
+                <datatype>MXL</datatype>
+                <filename>tillyou</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Andrew Lloyd-Webber</artist>
+                <songtitle>Phantom Song</songtitle>
+                <datatype>MXL</datatype>
+                <filename>phantomoftheopera</filename>
+                </dwork>               
+        </case>
+        
+        
+        
+        
+        <case>
+                <year>1999</year>
+                <cwork>
+                <artist>Suzane McKinley</artist>
+                <songtitle>I Think About You</songtitle>
+                <datatype>MXL</datatype>
+                <filename>ithinkaboutyou</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Steve Seskin and Collin Raye</artist>
+                <songtitle>I Think About You</songtitle>
+                <datatype>MXL</datatype>
+                <filename>ithinkaboutyoutwo</filename>
+                </dwork>               
+        </case>
+        
+               
+        
+        
+        <case>
+                <year>1999</year>
+                <cwork>
+                <artist>Snap</artist>
+                <songtitle>Green Grass Grows (Earth follows)</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>greengrassgrows</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Cygnus X</artist>
+                <songtitle>Superstring</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>superstring</filename>
+                </dwork>               
+        </case>
+        
+               
+        
+        
+        
+        <case>
+                <year>2002</year>
+                <cwork>
+                <artist>Marianne Creagh</artist>
+                <songtitle>Where are You Now</songtitle>
+                <datatype>MXL</datatype>
+                <filename>whereareyounow</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Philippou  (“Manakiza”), Simon Stirling, Scott English</artist>
+                <songtitle>Where are You</songtitle>
+                <datatype>MXL</datatype>
+                <filename>whereareyou</filename>
+                </dwork>               
+        </case>
+        
+        
+        
+        
+        
+        
+        
+        <case>
+                <year>2003</year>
+                <cwork>
+                <artist>Mehmet Ergin, Christoph Lienemann</artist>
+                <songtitle>Wenn’s ums Geld geht-Sparkasse</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>gehtsparkasse</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Unknown composer</artist>
+                <songtitle>Wouldn’t It Be Good</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>begood</filename>
+                </dwork>               
+        </case>
+        
+                  
+        
+                
+        
+        <case>
+                <year>2009</year>
+                <cwork>
+                <artist>WEH</artist>
+                <songtitle>Heartbeat</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>heartbeat</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Sophie Ellis-Bextor</artist>
+                <songtitle>Get Over You</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>getoveryou</filename>
+                </dwork>               
+        </case>
+        
+        
+        <case>
+                <year>2010</year>
+                <cwork>
+                <artist>Marion Sinclair</artist>
+                <songtitle>Kookaburra Sits in the Old Gum Tree</songtitle>
+                <datatype>MXL</datatype>
+                <filename>gumtree</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Colin James Hay and Ronald Graham Strykert</artist>
+                <songtitle>Down Under</songtitle>
+                <datatype>MXL</datatype>
+                <filename>downunder</filename>
+                </dwork>               
+        </case>
+        
+            
+     
+        
+        
+        <case>
+                <year>2015</year>
+                <cwork>
+                <artist>Dark Sanctuary</artist>
+                <songtitle>Les Memoires Blessées</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>blessees</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Bushido</artist>
+                <songtitle>Janine</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>janine</filename>
+                </dwork>               
+        </case>
+
+        
+                
+        
+        <case>
+                <year>2018</year>
+                <cwork>
+                <artist>Stahlgewitter</artist>
+                <songtitle>Auftrag Deutsches Reich</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>reich</filename>
+                </cwork>
+
+
+                <dwork>
+                <artist>Frei Wild</artist>
+                <songtitle>Schenkt uns Dummheit, kein Niveau</songtitle>
+                <datatype>MIDI</datatype>
+                <filename>niveau</filename>
+                </dwork>               
+        </case>
+</cases>

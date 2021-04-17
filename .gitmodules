@@ -1,0 +1,6 @@
+[submodule "src/lib/midi-levenshtein-lcs"]
+	path = src/lib/midi-levenshtein-lcs
+	url = git@github.com:breid1313/midi-levenshtein-lcs.git
+[submodule "src/lib/document_ranker"]
+	path = src/lib/document_ranker
+	url = git@github.com:breid1313/document-ranker.git

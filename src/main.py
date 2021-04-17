@@ -15,7 +15,7 @@ from lib.midi_levenshtein_lcs.lib.helpers import Music21Helper
 from lib.document_ranker.algorithms.document_ranker import Ranker
 
 # import logic to parse the case dataset
-from lib.preprocess.parse_cases import parseData
+from lib.preprocess.parse_cases import parseData, buildFileList
 
 # either posix path or pycache was causing a weird issue
 # where works in each case were being interpretted as identical
@@ -42,6 +42,11 @@ def streamToIntervals(stream):
 def intervalToVector(intervalList, start=-30, end=30):
     """Takes a list of intervals ie [0,2,-3,...] and converts
     it to a vector via the Counter object.
+
+    Returns a vector that represents how many times each interval
+    occurs from the start param to the end param, for example:
+
+    [0,0,0,0,0,0,0,2,5,3,10,12,7,8,3,1,0,0,1,0,0,0,0,0,0]
 
     :param intervalList: lift of ints representing diatonic intervals
     :type intervalList: list
@@ -171,6 +176,8 @@ helper = Music21Helper()
 
 # build the dict of case pairings
 cases = parseData(CASES_XML)
+# build the dict of songs without pairing by case
+all_songs = buildFileList(CASES_XML)
 
 # optimize the size of the vectors
 # vector_min, vector_max = getMaxIntervals(cases)
@@ -182,7 +189,6 @@ vector_max = 20
 scores = []
 # driver code for "horizontal" analysis
 # convert music into vectors, pretty straight forward setup
-'''
 for key, case in cases.items():
     # get the file name and type or the defendant and complaintant
     c_file = case["complaintant"]["file"]
@@ -211,7 +217,7 @@ for key, case in cases.items():
     # instantiate a 'document ranker'
     ranker = Ranker(buildCorpus(cases), alpha=0.25, b=0.75, k=1.2, mu=0.75)
     # TODO - do some vector-based analysis
-'''
+
 
 # driver code for "vertical" analysis
 # analyze groups of notes together. we will consider
@@ -245,5 +251,5 @@ for key, case in cases.items():
     scores.append((c_words, d_words))
 
     # instantiate a 'document ranker'
-    ranker = Ranker(buildCorpus(cases), alpha=0.25, b=0.75, k=1.2, mu=0.75)
+    ranker = Ranker(buildCorpus(cases, vertical=True), alpha=0.25, b=0.75, k=1.2, mu=0.75)
     # TODO - do some vector-based analysis

@@ -117,3 +117,39 @@ def parseData(filePath):
         result[key]["defendant"] = defendant_dict
 
     return result
+
+def buildFileList(filePath):
+    """build a list of all song files that are available to us from the dataset.
+    This is useful when we don't necessarily want to just look at songs that are
+    involved in litigation together. If time complexity were important, we could
+    interpolate this from parseData(), but for simplicity's sake this is ok.
+
+    :param filePath: path to the case data
+    :type filePath: str
+    """
+
+    result = defaultdict(defaultdict)
+
+    tree = ET.parse(filePath)
+    root = tree.getroot()
+
+    cases = root.findall("./case")
+    for case in cases:
+        complaintant = case.find("./cwork")
+        defendant = case.find("./dwork")
+
+        # gather the data for each work
+        complaintant_dict = parseCase(complaintant)
+        defendant_dict = parseCase(defendant)
+
+        # store each work with its title as the key
+        result[complaintant_dict["song"]] = complaintant_dict
+        result[defendant_dict["song"]] = defendant_dict
+
+        # add the case pairing in case we want to access it later
+        # space complexity is not a concern, so we can be liberal with the data structure
+        # store under the "litigation" key
+        result[complaintant_dict["song"]]["litigation"] = defendant_dict
+        result[defendant_dict["song"]]["litigation"] = complaintant_dict
+
+    return result

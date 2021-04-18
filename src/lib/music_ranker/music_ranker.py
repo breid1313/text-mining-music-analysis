@@ -33,7 +33,7 @@ class MusicRanker(Ranker):
             # carefully build each term
             numerator = math.log(1 + math.log(1 + cwork[i]))
             denominator = 1 - self.B + self.B * (float(len(cwork))/self.avdl)
-            log_term = math.log((len(self.corpus) + 1) / doc_freq, base=10)
+            log_term = math.log((len(self.corpus) + 1) / doc_freq, 10)
 
             # add the result for the current vector position to score
             score += dwork[i] * (numerator / denominator) * log_term
@@ -60,7 +60,7 @@ class MusicRanker(Ranker):
             # carefully build each term
             numerator = (self.K + 1) * cwork[i]
             denominator = cwork[i] + self.K * (1 - self.B + self.B * (float(len(cwork))/self.avdl))
-            log_term = math.log((len(self.corpus) + 1) / doc_freq, base=10)
+            log_term = math.log((len(self.corpus) + 1) / doc_freq, 10)
 
             # add the result for the current vector position to score
             score += dwork[i] * (numerator / denominator) * log_term

@@ -8,6 +8,10 @@ class UsageError(Exception):
 
 class MusicRanker(Ranker):
 
+    # self.k and self.b will need to be tuned
+    # In the case of this project, all docs are the same len, so B has no effect.
+    # Due to PLN structure, the score increases as K increases, so we can pick anything reasonable.
+
     # override bm25 method based on the representation we have of the music
     def bm25(self, dwork, cwork):
         # input will be two vectors of the same length representing "term frequency" of each interval

@@ -44,64 +44,66 @@ scores = []
 b_values = [i/100 for i in range(101)] # 0 to 1
 k_values = [i/100 for i in range(301)] # 0 to 3
 
-# driver code for "horizontal" analysis
-# convert music into vectors, pretty straight forward setup
-for key, case in cases.items():
-    # get the file name and type or the defendant and complaintant
-    c_file = case["complaintant"]["file"]
-    c_type = case["complaintant"]["fileType"]
-    d_file = case["defendant"]["file"]
-    d_type = case["defendant"]["fileType"]
+vector_corpus = buildCorpus(cases, vectors=True, vector_min=vector_min, vector_max=vector_max)
+interval_corpus = buildCorpus(cases)
 
-    # get the complaintant as a list of intervals
-    complaintant = parse(DATA_DIR + "/" + c_file)
-    c_melody = streamToIntervals(complaintant)
+complaintant = parse(DATA_DIR + "/" + 'light_myLife.xml')
+defendant = parse(DATA_DIR + "/" + 'lady_divine_pt3.xml')
+other = parse(DATA_DIR + "/" + 'feelings.xml')
 
-    # get the defendant as a list of intervals
-    defendant = parse(DATA_DIR + "/" + d_file)
-    d_melody = streamToIntervals(defendant)
+c_melody = streamToIntervals(complaintant)
+d_melody = streamToIntervals(defendant)
+o_melody = streamToIntervals(other)
 
-    # convert the interval list to a vector
-    c_vector = intervalToVector(c_melody, vector_min, vector_max)
-    d_vector = intervalToVector(d_melody, vector_min, vector_max)
+# convert the interval list to a vector
+c_vector = intervalToVector(c_melody, vector_min, vector_max)
+d_vector = intervalToVector(d_melody, vector_min, vector_max)
+o_vector = intervalToVector(o_melody, vector_min, vector_max)
 
-    corpus = buildCorpus(cases, vectors=True, vector_min=vector_min, vector_max=vector_max)
+# bm25
 
-    # bm25
-
-    best_b = None
-    max_score = -inf
-    for b in b_values:
-        print("testing b = {}".format(b))
-        ranker = MusicRanker(corpus=corpus, b=b, k=1.2)
-        score = ranker.bm25(d_vector, c_vector)
-        if score >= max_score:
-            max_score = score
-            best_b = b
-    print("Optimal B value: {}".format(b))
+best_b = None
+max_score_related = -inf
+min_score_other = inf
+for b in b_values:
+    print("testing b = {}".format(b))
+    ranker = MusicRanker(corpus=vector_corpus, b=b, k=1.2, reference_corpus=interval_corpus)
+    score_related = ranker.bm25(d_vector, c_vector)
+    score_other = ranker.bm25(d_vector, o_vector)
+    if score_related >= max_score_related and score_other <= min_score_other:
+        max_score_related = score_related
+        min_score_other = score_other
+        best_b = b
+print("Optimal B value: {}".format(best_b))
 
 
-    # PLN
+# PLN
 
-    best_b = None
-    max_score = -inf
-    for b in b_values:
-        print("testing b = {}".format(b))
-        ranker = MusicRanker(corpus=corpus, b=b, k=1.2)
-        score = ranker.pivoted_length_normalization(d_vector, c_vector)
-        if score >= max_score:
-            max_score = score
-            best_b = b
-    print("Optimal B value: {}".format(b))
+best_b = None
+max_score_related = -inf
+min_score_other = inf
+for b in b_values:
+    print("testing b = {}".format(b))
+    ranker = MusicRanker(corpus=vector_corpus, b=b, k=1.2, reference_corpus=interval_corpus)
+    score_related = ranker.pivoted_length_normalization(d_vector, c_vector)
+    score_other = ranker.pivoted_length_normalization(d_vector, o_vector)
+    if score_related >= max_score_related and score_other <= min_score_other:
+        max_score_related = score_related
+        min_score_other = score_other
+        best_b = b
+print("Optimal B value: {}".format(best_b))
 
-    best_k = None
-    max_score = -inf
-    for k in k_values:
-        print("testing k = {}".format(k))
-        ranker = MusicRanker(corpus, b=0.75, k=k)
-        score  = ranker.pivoted_length_normalization(d_vector, c_vector)
-        if score >= max_score:
-            max_score = score
-            best_k = k
-    print("Optimal k value: {}".format(k))
+best_k = None
+max_score_related = -inf
+min_score_other = inf
+for k in k_values:
+    print("testing k = {}".format(k))
+    ranker = MusicRanker(vector_corpus, b=0.75, k=k, reference_corpus=interval_corpus)
+    score_related = ranker.pivoted_length_normalization(d_vector, c_vector)
+    score_other = ranker.pivoted_length_normalization(d_vector, o_vector)
+    if score_related >= max_score_related and score_other <= min_score_other:
+        max_score_related = score_related
+        min_score_other = score_other
+        best_k = k
+print("Optimal k value: {}".format(best_k))
 

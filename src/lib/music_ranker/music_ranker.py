@@ -8,6 +8,15 @@ class UsageError(Exception):
 
 class MusicRanker(Ranker):
 
+    # overide init method to take a second corpus and calculate avdl
+    # we do this because our vectors will all be the same length and we want a
+    # a way to reference the original corpus
+    def __init__(self, *args, **kwargs):
+        super(MusicRanker, self).__init__(*args, **kwargs)
+        if kwargs.get("reference_corpus"):
+            self.reference_corpus = kwargs.get("reference_corpus")
+            self.avdl = self.setAVDL(corpus=self.reference_corpus)
+
     # self.k and self.b will need to be tuned
     # In the case of this project, all docs are the same len, so B has no effect.
     # Due to PLN structure, the score increases as K increases, so we can pick anything reasonable.
@@ -32,7 +41,7 @@ class MusicRanker(Ranker):
                     doc_freq += 1
             # carefully build each term
             numerator = math.log(1 + math.log(1 + cwork[i]))
-            denominator = 1 - self.B + self.B * (float(len(cwork))/self.avdl)
+            denominator = 1 - self.B + self.B * (float(sum(cwork))/self.avdl)
             log_term = math.log((len(self.corpus) + 1) / doc_freq, 10)
 
             # add the result for the current vector position to score
@@ -59,7 +68,7 @@ class MusicRanker(Ranker):
                     doc_freq += 1
             # carefully build each term
             numerator = (self.K + 1) * cwork[i]
-            denominator = cwork[i] + self.K * (1 - self.B + self.B * (float(len(cwork))/self.avdl))
+            denominator = cwork[i] + self.K * (1 - self.B + self.B * (float(sum(cwork))/self.avdl))
             log_term = math.log((len(self.corpus) + 1) / doc_freq, 10)
 
             # add the result for the current vector position to score
